@@ -17,6 +17,10 @@ class Graph:
     def neighbors(self, node1=None, node2=None):
         if self.empty():
             return []
+        return [node1, node2]
+        
+    def add_vertex(self, node):
+        self.data[node] = []
     
     def empty(self):
         return self.data == {}
