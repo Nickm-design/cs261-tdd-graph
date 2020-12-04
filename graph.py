@@ -30,6 +30,10 @@ class Graph:
         if self.empty():
             pass
 
+    def remove_edge(self, node1, node2):
+        if self.empty():
+            pass
+
     def empty(self):
         return self.data == {}
 
