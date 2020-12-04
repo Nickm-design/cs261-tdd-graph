@@ -19,8 +19,12 @@ class Graph:
             return []
         return [node1, node2]
         
-    def add_vertex(self, node):
-        self.data[node] = []
+    def add_vertex(self, key):
+        self.data[key] = []
+
+    def remove_vertex(self, key):
+        if self.empty():
+            pass
     
     def empty(self):
         return self.data == {}
