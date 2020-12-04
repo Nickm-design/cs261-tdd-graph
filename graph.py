@@ -13,4 +13,11 @@ class Graph:
     
     def adjacent(self, node1, node2):
         return self.data
+    
+    def neighbors(self, node1=None, node2=None):
+        if self.empty():
+            return []
+    
+    def empty(self):
+        return self.data == {}
 
