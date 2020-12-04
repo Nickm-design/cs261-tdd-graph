@@ -10,4 +10,7 @@ class Graph:
 
     def __init__(self):
         self.data = {}
+    
+    def adjacent(self, node1, node2):
+        return self.data
 
