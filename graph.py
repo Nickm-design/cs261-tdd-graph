@@ -9,5 +9,5 @@ import functools
 class Graph:
 
     def __init__(self):
-        pass
+        self.data = {}
 
